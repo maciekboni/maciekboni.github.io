@@ -1,12 +1,19 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: PSU CIDD Modeling Effort for SARS-CoV-2 Pandemic"
+excerpt: Penn State CIDD Modeling Effort around SARS-CoV-2 Epidemic in the US"
 last_modified_at: 2020-04-14
 toc: false
 ---
 
-## Participating Labs:
-1. [Hanks](https://sites.psu.edu/hanks/)
-2. [Pritchard](https://sites.psu.edu/pritchardlab/)
-3. [Boni](https://mol.ax)
+## Scientists working on this effort
+1. Fuhan Yang
+2. Nathan Wikle
+3. Thu Tran
+4. Emily Strong
+4. [Justin Pritchard](https://sites.psu.edu/pritchardlab/)
+5. Scott Leighow
+6. Haider Inam
+7. Asher Hollenbeak
+8. [Ephraim Hanks](https://sites.psu.edu/hanks/)
+9. [Maciej Boni](https://mol.ax)

@@ -15,13 +15,20 @@ list_posts_on_home: false
 
 
 defaults:
-  - #post
+  - # using post layout by default
     scope: 
       path: ""
       type: "posts"
     values:
       layout: "post"
-  - #pages
+  - # posts with permalink
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/posts/:title"
+  - # pages
     scope:
       path: "pages"
       type: "pages"

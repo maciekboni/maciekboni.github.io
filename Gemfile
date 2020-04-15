@@ -1,6 +1,9 @@
+
+# frozen_string_literal: true
+
 source "https://rubygems.org"
+
+gem "minima"
 # gemspec
 
-# gem "github-pages", group: :jekyll_plugins
-gem "jekyll", "~> 3.5"
-gem "minimal-mistakes-jekyll"
+# gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]

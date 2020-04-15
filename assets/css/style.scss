@@ -6,6 +6,8 @@ $content-width: 1000px;
 $on-palm: 800px;
 $on-laptop: 1000px;
 $spacing-unit: 10px;
+$background-color: #ffffff;
+
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",

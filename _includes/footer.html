@@ -5,6 +5,7 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+
         <!-- <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
             <svg class="svg-icon orange">
@@ -12,7 +13,9 @@
             </svg><span>Subscribe</span>
           </a>
         </p> -->
-      {%- if site.author %}
+
+      <!-- use author defined in _config.yml if no authors.yml is found in _data -->
+      {%- if site.author and site.data.authors == false %}
         <ul class="contact-list">
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
@@ -22,6 +25,22 @@
           {%- endif %}
         </ul>
       {%- endif %}
+      
+      <!-- authors.yml in _data -->
+      {% if site.data.authors %}
+        <ul class="contact-list">
+          <li class="p-name">
+            {% for author in site.data.authors.authors %}
+              {% if author.email %}
+                <a class="u-email" href="mailto:{{ author.email }}">{{ author.name | escape }}</a> |
+              {% else %}
+                <a class="page-link" href="{{ author.url | absolute_url }}">{{ author.name | escape }}</a> | 
+              {% endif %}
+            {% endfor %}
+          </li>
+        </ul>
+      {% endif %}
+
       </div>
       <!-- <div class="footer-col">
         <p align="right">{{ site.description | escape }}</p>

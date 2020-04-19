@@ -1,4 +1,4 @@
-title: PSU CIDD Modeling/Forecasting of COVID-19 Pandemic
+title: PSU CIDD Modeling and Forecasting of COVID-19 Pandemic
 author:
   name: Hanks Lab [https://sites.psu.edu/hanks/], Pritchard Lab [https://sites.psu.edu/pritchardlab/the-lab/], Boni Lab [http://mol.ax]
   email: 
@@ -79,8 +79,8 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
 - pages/about.md
-- pages/data.md
-- pages/model.md
+#- pages/data.md
+#- pages/model.md
 
 # Build settings
 theme: minima

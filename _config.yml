@@ -1,7 +1,7 @@
-title: Penn State COVID-19 Modeling
+title: PSU CIDD Modeling/Forecasting of COVID-19 Pandemic
 author:
-  name: Hanks, Pritchard, and Boni Lab
-  # email: your-email@domain.com
+  name: Hanks Lab [https://sites.psu.edu/hanks/], Pritchard Lab [https://sites.psu.edu/pritchardlab/the-lab/], Boni Lab [http://mol.ax]
+  email: 
 description: > # this means to ignore newlines until "show_excerpts:"
   Penn State's Center for Infectious Disease Dynamics 
   modeling efforts around the coronavirus pandemic 

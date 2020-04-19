@@ -1,0 +1,12 @@
+nav_title: Sitemap
+
+pages:
+
+- title: About
+  url: /about/
+
+- title: Datasets
+  url: /data/
+
+- title: Model
+  url: /model/

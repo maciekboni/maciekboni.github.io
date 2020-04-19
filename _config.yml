@@ -1,7 +1,7 @@
 title: Penn State COVID-19 Modeling
 author:
-  name: Hanks, Pritchard, and Boni Lab
-  # email: your-email@domain.com
+  name: Hanks Lab, Pritchard Lab, Boni Lab
+  email: mfb9@psu.edu
 description: > # this means to ignore newlines until "show_excerpts:"
   Penn State's Center for Infectious Disease Dynamics 
   modeling efforts around the coronavirus pandemic 
